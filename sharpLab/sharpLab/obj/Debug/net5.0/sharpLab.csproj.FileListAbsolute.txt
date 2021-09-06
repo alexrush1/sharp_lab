@@ -1,0 +1,16 @@
+/home/alexrush1/sharp_lab/sharpLab/sharpLab/bin/Debug/net5.0/sharpLab
+/home/alexrush1/sharp_lab/sharpLab/sharpLab/bin/Debug/net5.0/sharpLab.deps.json
+/home/alexrush1/sharp_lab/sharpLab/sharpLab/bin/Debug/net5.0/sharpLab.runtimeconfig.json
+/home/alexrush1/sharp_lab/sharpLab/sharpLab/bin/Debug/net5.0/sharpLab.runtimeconfig.dev.json
+/home/alexrush1/sharp_lab/sharpLab/sharpLab/bin/Debug/net5.0/sharpLab.dll
+/home/alexrush1/sharp_lab/sharpLab/sharpLab/bin/Debug/net5.0/ref/sharpLab.dll
+/home/alexrush1/sharp_lab/sharpLab/sharpLab/bin/Debug/net5.0/sharpLab.pdb
+/home/alexrush1/sharp_lab/sharpLab/sharpLab/obj/Debug/net5.0/sharpLab.csproj.AssemblyReference.cache
+/home/alexrush1/sharp_lab/sharpLab/sharpLab/obj/Debug/net5.0/sharpLab.GeneratedMSBuildEditorConfig.editorconfig
+/home/alexrush1/sharp_lab/sharpLab/sharpLab/obj/Debug/net5.0/sharpLab.AssemblyInfoInputs.cache
+/home/alexrush1/sharp_lab/sharpLab/sharpLab/obj/Debug/net5.0/sharpLab.AssemblyInfo.cs
+/home/alexrush1/sharp_lab/sharpLab/sharpLab/obj/Debug/net5.0/sharpLab.csproj.CoreCompileInputs.cache
+/home/alexrush1/sharp_lab/sharpLab/sharpLab/obj/Debug/net5.0/sharpLab.dll
+/home/alexrush1/sharp_lab/sharpLab/sharpLab/obj/Debug/net5.0/ref/sharpLab.dll
+/home/alexrush1/sharp_lab/sharpLab/sharpLab/obj/Debug/net5.0/sharpLab.pdb
+/home/alexrush1/sharp_lab/sharpLab/sharpLab/obj/Debug/net5.0/sharpLab.genruntimeconfig.cache
