@@ -48,6 +48,10 @@ namespace nsu.timofeev.first_lab.Movers
             {
                 worm.Position.Y--;
             }
+            else
+            {
+                worm.Position.X++;
+            }
 
             worm.Health--;
         }

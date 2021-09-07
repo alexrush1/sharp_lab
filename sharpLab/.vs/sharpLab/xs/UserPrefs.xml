@@ -1,0 +1,37 @@
+﻿<Properties StartupConfiguration="{3E76BD63-4FD6-4C2F-B470-3C760FB0DB3F}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="sharpLab.Test/WorldTests.cs">
+    <Files>
+      <File FileName="sharpLab/Program.cs" Line="4" Column="32" />
+      <File FileName="sharpLab/World.cs" Line="195" Column="33" />
+      <File FileName="sharpLab.Test/Tests.cs" Line="12" Column="31" />
+      <File FileName="sharpLab.Test/EmptyClass.cs" Line="12" Column="69" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="sharpLab" expanded="True">
+            <Node name="sharpLab" expanded="True" />
+            <Node name="sharpLab.Test" expanded="True">
+              <Node name="WorldTests.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="sharpLab" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.sharpLab PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>

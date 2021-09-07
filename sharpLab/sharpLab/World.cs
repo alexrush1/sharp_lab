@@ -10,7 +10,7 @@ namespace nsu.timofeev.sharpLab
     public sealed class World
     {
 
-        private List<Worm> Worms = new List<Worm>();
+        public readonly List<Worm> Worms = new List<Worm>();
         private StreamWriter _output;
         public readonly List<Food> Foods = new List<Food>();
 
@@ -40,9 +40,17 @@ namespace nsu.timofeev.sharpLab
             return true;
         }
 
-        public void AddWorm(string name)
+        public Worm AddWorm()
         {
-            Worms.Add(new Worm(name, new CloseFoodMover(), this));
+            var randName = RandName();
+            while (!CheckName(randName))
+            {
+                randName = RandName();
+            }
+
+            Worm worm = new Worm(randName, new CloseFoodMover(), this);
+            Worms.Add(worm);
+            return worm;
         }
         
         public void Live()
@@ -100,7 +108,7 @@ namespace nsu.timofeev.sharpLab
             return new Point(x, y);
         }
 
-        private void CreateFood()
+        public void CreateFood()
         {
             Point newPoint;
             Boolean done = true;
@@ -169,30 +177,31 @@ namespace nsu.timofeev.sharpLab
             {
                 worm.Health -= 10;
                 Direction direction = worm.GetMultiplyDirection();
-                var randName = RandName();
-                while (!CheckName(randName))
-                {
-                    randName = RandName();
-                }
                 switch (direction)
                 {
                     case Direction.UP:
                         if (TestCell(new Point(worm.Position.X, worm.Position.Y + 1)))
                         {
-                            AddWorm(randName);
+                            AddWorm();
                         }
                         break;
                     case Direction.DOWN:
                         if (TestCell(new Point(worm.Position.X, worm.Position.Y - 1)))
                         {
-                            AddWorm(randName);
+                            AddWorm();
                         }
                         break;
                     case Direction.LEFT:
-                        AddWorm(randName);
+                        if (TestCell(new Point(worm.Position.X, worm.Position.Y - 1)))
+                        {
+                            AddWorm();
+                        }
                         break;
                     case Direction.RIGHT:
-                        AddWorm(randName);
+                        if (TestCell(new Point(worm.Position.X, worm.Position.Y - 1)))
+                        {
+                            AddWorm();
+                        }
                         break;
                 }
             }

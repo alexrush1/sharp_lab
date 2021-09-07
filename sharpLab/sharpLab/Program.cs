@@ -9,7 +9,7 @@ namespace nsu.timofeev.sharpLab
         {
             StreamWriter streamWriter = new StreamWriter("log.txt");
             World world = new World(streamWriter);
-            world.AddWorm("Petr");
+            world.AddWorm();
             world.Live();
             streamWriter.Close();
         }
