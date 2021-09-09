@@ -2,7 +2,6 @@
 using Microsoft.Extensions.Hosting;
 using nsu.timofeev.first_lab.Movers;
 using nsu.timofeev.sharpLab.Movers;
-using nsu.timofeev.sharpLab.NameGenerator;
 using nsu.timofeev.sharpLab.OutputWriter;
 
 namespace nsu.timofeev.sharpLab
@@ -23,7 +22,7 @@ namespace nsu.timofeev.sharpLab
                     collection.AddHostedService<WorldService>();
                     collection.AddScoped<IFoodGenerator, FoodGenerator>();
                     collection.AddScoped<IOutputWriter>(ctx => new OutputFileWriter("log.txt"));
-                    collection.AddScoped<INameGenerator, NameGenerator.NameGenerator>();
+                    collection.AddScoped<INameGenerator, NameGenerator>();
                     collection.AddScoped<IWormMover, CloseFoodMover>();
                 });
         }

@@ -26,7 +26,6 @@ namespace nsu.timofeev.first_lab.Movers
                     minDistance = currentDistance;
                 }
             }
-            //Console.WriteLine("worm = " + worm.Position.X + ", " + worm.Position.Y + " closestFood = " + ToFood.X + ", " + ToFood.Y + " distance = " + minDistance);
             return ToFood;
         }
 

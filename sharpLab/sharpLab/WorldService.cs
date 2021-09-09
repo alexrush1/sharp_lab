@@ -8,7 +8,6 @@ using Microsoft.Extensions.Hosting;
 using nsu.timofeev.first_lab.Movers;
 using nsu.timofeev.sharpLab.Enum;
 using nsu.timofeev.sharpLab.Movers;
-using nsu.timofeev.sharpLab.NameGenerator;
 using nsu.timofeev.sharpLab.OutputWriter;
 
 namespace nsu.timofeev.sharpLab
@@ -41,16 +40,21 @@ namespace nsu.timofeev.sharpLab
         
         public void Live()
         {
-            for (int i = 0; i < 5; i++)
+            for (int i = 0; i < 100; i++)
             {
-                _foodGenerator.CreateFood(this);
-                CheckEatenFood();
-                CheckWormWishes();
-                CheckDeathWorms();
-                FoodLifetime();
-                CheckRottenFood();
-                _output.Log(this);
+                Round(i);
             }
+        }
+
+        private void Round(int i)
+        {
+            _foodGenerator.CreateFood(this);
+            CheckEatenFood();
+            CheckWormWishes();
+            CheckDeathWorms();
+            FoodLifetime();
+            CheckRottenFood();
+            _output.Log(this, i);
         }
 
         private void CheckDeathWorms()
@@ -60,7 +64,7 @@ namespace nsu.timofeev.sharpLab
 
         private void FoodLifetime()
         {
-            foreach (var food in Foods)
+            foreach (var food in Foods.ToList())
             {
                 food.lifetime--;
             }
@@ -73,7 +77,7 @@ namespace nsu.timofeev.sharpLab
 
         private void CheckEatenFood()
         {
-            foreach (var worm in Worms)
+            foreach (var worm in Worms.ToList())
             {
                 foreach (var food in Foods.ToList())
                 {
@@ -150,7 +154,6 @@ namespace nsu.timofeev.sharpLab
             {
                 worm.Health--;
                 Wish wish = worm.GetWish();
-                //Console.WriteLine(worm.Name + " WISH " + wish);
                 switch (wish)
                 {
                     case Wish.MOVE:
@@ -167,7 +170,7 @@ namespace nsu.timofeev.sharpLab
 
         public Task StartAsync(CancellationToken cancellationToken)
         {
-            return Task.Run(() => Live());
+            return Task.Run(Live, cancellationToken);
         }
 
         public Task StopAsync(CancellationToken cancellationToken)

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 
-namespace nsu.timofeev.sharpLab.NameGenerator
+namespace nsu.timofeev.sharpLab
 {
     public class NameGenerator : INameGenerator
     {

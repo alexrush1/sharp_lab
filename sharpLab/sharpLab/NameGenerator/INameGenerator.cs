@@ -1,4 +1,4 @@
-﻿namespace nsu.timofeev.sharpLab.NameGenerator
+﻿namespace nsu.timofeev.sharpLab
 {
     public interface INameGenerator
     {
