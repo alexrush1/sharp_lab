@@ -2,84 +2,55 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Threading;
+using System.Threading.Tasks;
+using Microsoft.Extensions.Hosting;
 using nsu.timofeev.first_lab.Movers;
 using nsu.timofeev.sharpLab.Enum;
+using nsu.timofeev.sharpLab.Movers;
+using nsu.timofeev.sharpLab.NameGenerator;
+using nsu.timofeev.sharpLab.OutputWriter;
 
 namespace nsu.timofeev.sharpLab
 {
-    public sealed class World
+    public sealed class WorldService : IHostedService
     {
-
+        private IWormMover _wormMover;
+        private static IOutputWriter _output;
+        private IFoodGenerator _foodGenerator;
+        private INameGenerator _nameGenerator;
+        
         public readonly List<Worm> Worms = new List<Worm>();
-        private StreamWriter _output;
         public readonly List<Food> Foods = new List<Food>();
 
-        public World(StreamWriter output)
+        public WorldService(IWormMover wormMover, IFoodGenerator foodGenerator, INameGenerator nameGenerator, IOutputWriter outputWriter)
         {
-            _output = output;
-        }
-
-        private String RandName()
-        {
-            string[] firstPart = { "aaron", "abdul", "abe", "abel", "abraham", "adam", "adan", "adolfo", "adolph", "adrian", "petro", "jorjo", "senjo", "alfredo", "letrejo"};
-            string[] secondPart = { "abby", "abigail", "adele", "adrian", "aswer", "qojo", "saran", "bojo", "kambojo", "lejo", "raya", "vaya", "kaya", "peto", "lola"};
-        
-            Random random = new Random();
-            return (string)firstPart.GetValue(random.Next(firstPart.Length)) + "_" + (string)secondPart.GetValue(random.Next(secondPart.Length));
-        }
-
-        private bool CheckName(string name)
-        {
-            foreach (var worm in Worms)
-            {
-                if (worm.Name.Equals(name))
-                {
-                    return false;
-                }
-            }
-            return true;
+            _wormMover = wormMover;
+            _foodGenerator = foodGenerator;
+            _nameGenerator = nameGenerator;
+            _output = outputWriter;
+            AddWorm();
         }
 
         public Worm AddWorm()
         {
-            var randName = RandName();
-            while (!CheckName(randName))
-            {
-                randName = RandName();
-            }
-
-            Worm worm = new Worm(randName, new CloseFoodMover(), this);
+            Worm worm = new Worm(_nameGenerator.Generate(this), _wormMover, this);
             Worms.Add(worm);
             return worm;
         }
         
         public void Live()
         {
-            for (int i = 0; i < 100; i++)
+            for (int i = 0; i < 5; i++)
             {
-                CreateFood();
+                _foodGenerator.CreateFood(this);
                 CheckEatenFood();
                 CheckWormWishes();
                 CheckDeathWorms();
                 FoodLifetime();
                 CheckRottenFood();
-                Log();
+                _output.Log(this);
             }
-        }
-        
-        private void Log()
-        {
-            _output.Write("Worms: [");
-            foreach (var worm in Worms)
-            {
-                _output.Write(" "+ worm.Name + "-" + worm.Health +" (" + worm.Position.X + ", " + worm.Position.Y + "), ");
-            }
-            _output.Write("], Food: ");
-            foreach (var food in Foods)
-            {
-                _output.Write(" (" + food.Position.X + ", " + food.Position.Y + ") ");
-            }
-            _output.Write("\n");
         }
 
         private void CheckDeathWorms()
@@ -98,41 +69,6 @@ namespace nsu.timofeev.sharpLab
         private void CheckRottenFood()
         {
             Foods.RemoveAll(i => i.lifetime < 0);
-        }
-
-        private Point FindFreeField()
-        {
-            Random random = new Random();
-            int x = Normal.NextNormal(random);
-            int y = Normal.NextNormal(random);
-            return new Point(x, y);
-        }
-
-        public void CreateFood()
-        {
-            Point newPoint;
-            Boolean done = true;
-            while (true)
-            {
-                newPoint = FindFreeField();
-                foreach (var food in Foods)
-                {
-                    if (newPoint.Equals(food.Position))
-                    {
-                        done = false;
-                    }
-                    else
-                    {
-                        done = true;
-                    }
-                }
-
-                if (done)
-                {
-                    break;
-                }
-            }
-            Foods.Add(new Food(newPoint));
         }
 
         private void CheckEatenFood()
@@ -212,7 +148,9 @@ namespace nsu.timofeev.sharpLab
         {
             foreach (var worm in Worms.ToList())
             {
+                worm.Health--;
                 Wish wish = worm.GetWish();
+                //Console.WriteLine(worm.Name + " WISH " + wish);
                 switch (wish)
                 {
                     case Wish.MOVE:
@@ -225,6 +163,16 @@ namespace nsu.timofeev.sharpLab
                         break;
                 }
             }
+        }
+
+        public Task StartAsync(CancellationToken cancellationToken)
+        {
+            return Task.Run(() => Live());
+        }
+
+        public Task StopAsync(CancellationToken cancellationToken)
+        {
+            return Task.CompletedTask;
         }
     }
 }

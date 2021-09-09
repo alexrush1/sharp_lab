@@ -1,10 +1,11 @@
 ﻿using System;
 using nsu.timofeev.sharpLab;
+using nsu.timofeev.sharpLab.Enum;
 using nsu.timofeev.sharpLab.Movers;
 
 namespace nsu.timofeev.first_lab.Movers
 {
-    public class CloseFoodMover : WormMover
+    public class CloseFoodMover : IWormMover
     {
 
         public Point FindClosestFood(Worm worm)
@@ -13,7 +14,7 @@ namespace nsu.timofeev.first_lab.Movers
             int currentDistance = Int32.MaxValue;
             int foodX, foodY;
             Point ToFood = new Point(0, 0);
-            foreach (var food in worm.World.Foods)
+            foreach (var food in worm.WorldService.Foods)
             {
                 foodX = food.Position.X - worm.Position.X;
                 foodY = food.Position.Y - worm.Position.Y;
@@ -27,6 +28,11 @@ namespace nsu.timofeev.first_lab.Movers
             }
             //Console.WriteLine("worm = " + worm.Position.X + ", " + worm.Position.Y + " closestFood = " + ToFood.X + ", " + ToFood.Y + " distance = " + minDistance);
             return ToFood;
+        }
+
+        public Wish GetWish()
+        {
+            return Wish.MOVE;
         }
 
         public void Move(Worm worm)
@@ -52,8 +58,6 @@ namespace nsu.timofeev.first_lab.Movers
             {
                 worm.Position.X++;
             }
-
-            worm.Health--;
         }
     }
 }

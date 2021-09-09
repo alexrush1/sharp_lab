@@ -7,31 +7,33 @@ namespace nsu.timofeev.sharpLab
 
     public class Worm
     {
-        public World World { get; }
+        public WorldService WorldService { get; }
 
         public readonly String Name;
         public Point Position;
         public int Steps;
         public int Health;
 
-        public WormMover WormMover;
-        public Direction Direction;
+        public Wish Wish;
 
-        public Worm(String name, WormMover wormMover, World world)
+        public IWormMover WormMover;
+
+        public Worm(String name, IWormMover wormMover, WorldService worldService)
         {
             Name = name;
             Position.X = 0;
             Position.Y = 0;
             Health = 10;
             WormMover = wormMover;
-            World = world;
+            WorldService = worldService;
         }
 
         public Wish GetWish()
         {
-            Array values = System.Enum.GetValues(typeof(Wish));
-            Random random = new Random();
-            return (Wish)values.GetValue(random.Next(values.Length));
+            return WormMover.GetWish();
+            // Array values = System.Enum.GetValues(typeof(Wish));
+            // Random random = new Random(DateTime.Now.Millisecond);
+            // return (Wish)values.GetValue(random.Next(values.Length));
         }
 
         public Direction GetMultiplyDirection()
