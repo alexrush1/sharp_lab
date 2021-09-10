@@ -22,11 +22,12 @@ namespace nsu.timofeev.sharpLab.Movers
             return Wish.MOVE;
         }
 
-        public void Move(Worm worm)
+        public Point Move(Worm worm)
         {
             worm.Position = _points[worm.Steps % _points.Length];
             worm.Steps++;
             worm.Health--;
+            return worm.Position;
         }
     }
 }

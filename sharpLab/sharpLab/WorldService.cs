@@ -46,7 +46,7 @@ namespace nsu.timofeev.sharpLab
             }
         }
 
-        private void Round(int i)
+        public void Round(int i)
         {
             _foodGenerator.CreateFood(this);
             CheckEatenFood();
@@ -95,14 +95,6 @@ namespace nsu.timofeev.sharpLab
             foreach (var worm in Worms.ToList())
             {
                 if (worm.Position.Equals(target))
-                {
-                    return false;
-                }
-            }
-
-            foreach (var food in Foods.ToList())
-            {
-                if (food.Position.Equals(target))
                 {
                     return false;
                 }

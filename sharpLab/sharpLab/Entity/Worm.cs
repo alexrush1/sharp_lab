@@ -43,9 +43,10 @@ namespace nsu.timofeev.sharpLab
             return (Direction)values.GetValue(random.Next(values.Length));
         }
 
-        public void Move()
+        public Point Move()
         {
-            WormMover.Move(this);
+            return WormMover.Move(this);
         }
+        
     }
 }

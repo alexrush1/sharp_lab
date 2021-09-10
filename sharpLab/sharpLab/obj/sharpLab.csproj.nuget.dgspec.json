@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\alexr\\Documents\\sharp_lab\\sharpLab\\sharpLab\\sharpLab.csproj": {}
+    "/Users/ivantimofeev1/study/sharp_lab/sharpLab/sharpLab/sharpLab.csproj": {}
   },
   "projects": {
-    "C:\\Users\\alexr\\Documents\\sharp_lab\\sharpLab\\sharpLab\\sharpLab.csproj": {
+    "/Users/ivantimofeev1/study/sharp_lab/sharpLab/sharpLab/sharpLab.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alexr\\Documents\\sharp_lab\\sharpLab\\sharpLab\\sharpLab.csproj",
+        "projectUniqueName": "/Users/ivantimofeev1/study/sharp_lab/sharpLab/sharpLab/sharpLab.csproj",
         "projectName": "sharpLab",
-        "projectPath": "C:\\Users\\alexr\\Documents\\sharp_lab\\sharpLab\\sharpLab\\sharpLab.csproj",
-        "packagesPath": "C:\\Users\\alexr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alexr\\Documents\\sharp_lab\\sharpLab\\sharpLab\\obj\\",
+        "projectPath": "/Users/ivantimofeev1/study/sharp_lab/sharpLab/sharpLab/sharpLab.csproj",
+        "packagesPath": "/Users/ivantimofeev1/.nuget/packages/",
+        "outputPath": "/Users/ivantimofeev1/study/sharp_lab/sharpLab/sharpLab/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\alexr\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/ivantimofeev1/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net48"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -45,12 +43,7 @@
               "version": "[6.0.0-preview.7.21377.19, )"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
-        }
-      },
-      "runtimes": {
-        "win7-x86": {
-          "#import": []
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.400/RuntimeIdentifierGraph.json"
         }
       }
     }

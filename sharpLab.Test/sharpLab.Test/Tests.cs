@@ -1,8 +1,6 @@
 ﻿using System;
-using System.IO;
 using nsu.timofeev.sharpLab;
 using nsu.timofeev.sharpLab.Movers;
-using nsu.timofeev.sharpLab.NameGenerator;
 using nsu.timofeev.sharpLab.OutputWriter;
 using NUnit.Framework;
 
@@ -18,7 +16,7 @@ namespace sharpLab.Test
         public void SetUp()
         {
             _foodGenerator = new FoodGenerator();
-            _worldService = new WorldService(new CircleMover(), _foodGenerator, new NameGenerator(), new OutputFileWriter());
+            _worldService = new WorldService(new CircleMover(), _foodGenerator, new NameGenerator(), new OutputFileWriter("log.txt"));
         }
 
 
@@ -75,6 +73,29 @@ namespace sharpLab.Test
             
             Assert.True(!_worldService.Foods[0].Position.Equals(_worldService.Foods[1].Position));
         }
+        
+        //TODO: 1. Тест если мув на занятую клетку, размножение на клетку с едой
 
+        [Test]
+        public void BusyCellTest()
+        {
+            _worldService.AddWorm();
+            _worldService.AddWorm();
+            
+            Assert.True(_worldService.Worms.Count == 1);
+        }
+
+        [Test]
+        public void MultiplyOnFoodTest()
+        {
+            Worm worm1 = _worldService.AddWorm();
+            Food food1 = _foodGenerator.CreateFoodTest(_worldService, new Point(0,1));
+            worm1.Move();
+            _worldService.Round(0);
+            Console.WriteLine("FOOD: " + food1.Position.X + ", " + food1.Position.Y);
+            Console.WriteLine("WORM: " + _worldService.Worms[0].Position.X + ", " + _worldService.Worms[0].Position.Y);
+            Console.WriteLine("HEALTH: " + worm1.Health);
+            Assert.True(worm1.Health > 10);
+        }
     }
 }

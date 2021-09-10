@@ -7,7 +7,8 @@ namespace nsu.timofeev.first_lab.Movers
 {
     public class CloseFoodMover : IWormMover
     {
-
+        private Point _closestFood;
+        
         public Point FindClosestFood(Worm worm)
         {
             int minDistance = Int32.MaxValue;
@@ -34,22 +35,22 @@ namespace nsu.timofeev.first_lab.Movers
             return Wish.MOVE;
         }
 
-        public void Move(Worm worm)
+        public Point Move(Worm worm)
         {
-            Point closestFood = FindClosestFood(worm);
-            if (closestFood.X > 0)
+            _closestFood = FindClosestFood(worm);
+            if (_closestFood.X > 0)
             {
                 worm.Position.X++;
             }
-            else if (closestFood.X < 0)
+            else if (_closestFood.X < 0)
             {
                 worm.Position.X--;
             }
-            else if (closestFood.Y > 0)
+            else if (_closestFood.Y > 0)
             {
                 worm.Position.Y++;
             }
-            else if (closestFood.Y < 0)
+            else if (_closestFood.Y < 0)
             {
                 worm.Position.Y--;
             }
@@ -57,6 +58,8 @@ namespace nsu.timofeev.first_lab.Movers
             {
                 worm.Position.X++;
             }
+
+            return _closestFood;
         }
     }
 }
