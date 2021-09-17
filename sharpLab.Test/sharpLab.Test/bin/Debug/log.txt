@@ -1,1 +1,1 @@
-Round 0 Worms: [ adrian_vaya-8 (0, 1),  adolph_lejo-17 (1, 1), ], Food:  (-3, 11) 
+Round 0 Worms: [ letrejo_peto-17 (1, 1), ], Food:  (4, -7) 

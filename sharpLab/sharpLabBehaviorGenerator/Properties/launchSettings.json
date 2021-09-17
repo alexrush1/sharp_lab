@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "sharpLabBehaviorGenerator": {
+      "commandName": "Project",
+      "commandLineArgs": "behavior1"
+    }
+  }
+}

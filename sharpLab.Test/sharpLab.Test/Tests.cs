@@ -10,12 +10,12 @@ namespace sharpLab.Test
     public class Tests
     {
         private WorldService _worldService;
-        private FoodGenerator _foodGenerator;
+        private nsu.timofeev.sharpLab.FoodGenerator _foodGenerator;
 
         [SetUp]
         public void SetUp()
         {
-            _foodGenerator = new FoodGenerator();
+            _foodGenerator = new nsu.timofeev.sharpLab.FoodGenerator();
             _worldService = new WorldService(new CircleMover(), _foodGenerator, new NameGenerator(), new OutputFileWriter("log.txt"));
         }
 
@@ -88,6 +88,7 @@ namespace sharpLab.Test
         [Test]
         public void MultiplyOnFoodTest()
         {
+            _worldService.Worms.Clear();
             Worm worm1 = _worldService.AddWorm();
             Food food1 = _foodGenerator.CreateFoodTest(_worldService, new Point(0,1));
             worm1.Move();

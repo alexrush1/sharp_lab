@@ -108,3 +108,131 @@ C:/Users/alexr/Documents/sharp_lab/sharpLab/sharpLab/obj/Debug/net48/sharpLab.cs
 /Users/ivantimofeev1/study/sharp_lab/sharpLab/sharpLab/obj/Debug/net48/sharpLab.csproj.CopyComplete
 /Users/ivantimofeev1/study/sharp_lab/sharpLab/sharpLab/obj/Debug/net48/sharpLab.exe
 /Users/ivantimofeev1/study/sharp_lab/sharpLab/sharpLab/obj/Debug/net48/sharpLab.pdb
+C:\Users\alexr\Downloads\sharp_lab-main\sharp_lab-main\sharpLab\sharpLab\bin\Debug\net48\sharpLab.exe.config
+C:\Users\alexr\Downloads\sharp_lab-main\sharp_lab-main\sharpLab\sharpLab\bin\Debug\net48\sharpLab.exe
+C:\Users\alexr\Downloads\sharp_lab-main\sharp_lab-main\sharpLab\sharpLab\bin\Debug\net48\sharpLab.pdb
+C:\Users\alexr\Downloads\sharp_lab-main\sharp_lab-main\sharpLab\sharpLab\bin\Debug\net48\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\alexr\Downloads\sharp_lab-main\sharp_lab-main\sharpLab\sharpLab\bin\Debug\net48\Microsoft.Extensions.Configuration.dll
+C:\Users\alexr\Downloads\sharp_lab-main\sharp_lab-main\sharpLab\sharpLab\bin\Debug\net48\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\alexr\Downloads\sharp_lab-main\sharp_lab-main\sharpLab\sharpLab\bin\Debug\net48\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\alexr\Downloads\sharp_lab-main\sharp_lab-main\sharpLab\sharpLab\bin\Debug\net48\Microsoft.Extensions.Configuration.CommandLine.dll
+C:\Users\alexr\Downloads\sharp_lab-main\sharp_lab-main\sharpLab\sharpLab\bin\Debug\net48\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+C:\Users\alexr\Downloads\sharp_lab-main\sharp_lab-main\sharpLab\sharpLab\bin\Debug\net48\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\alexr\Downloads\sharp_lab-main\sharp_lab-main\sharpLab\sharpLab\bin\Debug\net48\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\alexr\Downloads\sharp_lab-main\sharp_lab-main\sharpLab\sharpLab\bin\Debug\net48\Microsoft.Extensions.Configuration.UserSecrets.dll
+C:\Users\alexr\Downloads\sharp_lab-main\sharp_lab-main\sharpLab\sharpLab\bin\Debug\net48\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\alexr\Downloads\sharp_lab-main\sharp_lab-main\sharpLab\sharpLab\bin\Debug\net48\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\alexr\Downloads\sharp_lab-main\sharp_lab-main\sharpLab\sharpLab\bin\Debug\net48\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\alexr\Downloads\sharp_lab-main\sharp_lab-main\sharpLab\sharpLab\bin\Debug\net48\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\alexr\Downloads\sharp_lab-main\sharp_lab-main\sharpLab\sharpLab\bin\Debug\net48\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\alexr\Downloads\sharp_lab-main\sharp_lab-main\sharpLab\sharpLab\bin\Debug\net48\Microsoft.Extensions.Hosting.dll
+C:\Users\alexr\Downloads\sharp_lab-main\sharp_lab-main\sharpLab\sharpLab\bin\Debug\net48\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\alexr\Downloads\sharp_lab-main\sharp_lab-main\sharpLab\sharpLab\bin\Debug\net48\Microsoft.Extensions.Logging.dll
+C:\Users\alexr\Downloads\sharp_lab-main\sharp_lab-main\sharpLab\sharpLab\bin\Debug\net48\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\alexr\Downloads\sharp_lab-main\sharp_lab-main\sharpLab\sharpLab\bin\Debug\net48\Microsoft.Extensions.Logging.Configuration.dll
+C:\Users\alexr\Downloads\sharp_lab-main\sharp_lab-main\sharpLab\sharpLab\bin\Debug\net48\Microsoft.Extensions.Logging.Console.dll
+C:\Users\alexr\Downloads\sharp_lab-main\sharp_lab-main\sharpLab\sharpLab\bin\Debug\net48\Microsoft.Extensions.Logging.Debug.dll
+C:\Users\alexr\Downloads\sharp_lab-main\sharp_lab-main\sharpLab\sharpLab\bin\Debug\net48\Microsoft.Extensions.Logging.EventLog.dll
+C:\Users\alexr\Downloads\sharp_lab-main\sharp_lab-main\sharpLab\sharpLab\bin\Debug\net48\Microsoft.Extensions.Logging.EventSource.dll
+C:\Users\alexr\Downloads\sharp_lab-main\sharp_lab-main\sharpLab\sharpLab\bin\Debug\net48\Microsoft.Extensions.Options.dll
+C:\Users\alexr\Downloads\sharp_lab-main\sharp_lab-main\sharpLab\sharpLab\bin\Debug\net48\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+C:\Users\alexr\Downloads\sharp_lab-main\sharp_lab-main\sharpLab\sharpLab\bin\Debug\net48\Microsoft.Extensions.Primitives.dll
+C:\Users\alexr\Downloads\sharp_lab-main\sharp_lab-main\sharpLab\sharpLab\bin\Debug\net48\System.Buffers.dll
+C:\Users\alexr\Downloads\sharp_lab-main\sharp_lab-main\sharpLab\sharpLab\bin\Debug\net48\System.Diagnostics.DiagnosticSource.dll
+C:\Users\alexr\Downloads\sharp_lab-main\sharp_lab-main\sharpLab\sharpLab\bin\Debug\net48\System.Memory.dll
+C:\Users\alexr\Downloads\sharp_lab-main\sharp_lab-main\sharpLab\sharpLab\bin\Debug\net48\System.Numerics.Vectors.dll
+C:\Users\alexr\Downloads\sharp_lab-main\sharp_lab-main\sharpLab\sharpLab\bin\Debug\net48\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\alexr\Downloads\sharp_lab-main\sharp_lab-main\sharpLab\sharpLab\bin\Debug\net48\System.Text.Encodings.Web.dll
+C:\Users\alexr\Downloads\sharp_lab-main\sharp_lab-main\sharpLab\sharpLab\bin\Debug\net48\System.Text.Json.dll
+C:\Users\alexr\Downloads\sharp_lab-main\sharp_lab-main\sharpLab\sharpLab\bin\Debug\net48\System.Threading.Tasks.Extensions.dll
+C:\Users\alexr\Downloads\sharp_lab-main\sharp_lab-main\sharpLab\sharpLab\bin\Debug\net48\System.ValueTuple.dll
+C:\Users\alexr\Downloads\sharp_lab-main\sharp_lab-main\sharpLab\sharpLab\obj\Debug\net48\sharpLab.csproj.AssemblyReference.cache
+C:\Users\alexr\Downloads\sharp_lab-main\sharp_lab-main\sharpLab\sharpLab\obj\Debug\net48\sharpLab.exe.config
+C:\Users\alexr\Downloads\sharp_lab-main\sharp_lab-main\sharpLab\sharpLab\obj\Debug\net48\sharpLab.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alexr\Downloads\sharp_lab-main\sharp_lab-main\sharpLab\sharpLab\obj\Debug\net48\sharpLab.AssemblyInfoInputs.cache
+C:\Users\alexr\Downloads\sharp_lab-main\sharp_lab-main\sharpLab\sharpLab\obj\Debug\net48\sharpLab.AssemblyInfo.cs
+C:\Users\alexr\Downloads\sharp_lab-main\sharp_lab-main\sharpLab\sharpLab\obj\Debug\net48\sharpLab.csproj.CoreCompileInputs.cache
+C:\Users\alexr\Downloads\sharp_lab-main\sharp_lab-main\sharpLab\sharpLab\obj\Debug\net48\sharpLab.csproj.CopyComplete
+C:\Users\alexr\Downloads\sharp_lab-main\sharp_lab-main\sharpLab\sharpLab\obj\Debug\net48\sharpLab.exe
+C:\Users\alexr\Downloads\sharp_lab-main\sharp_lab-main\sharpLab\sharpLab\obj\Debug\net48\sharpLab.pdb
+C:\Users\alexr\OneDrive\Рабочий стол\sharp_lab-main\sharpLab\sharpLab\obj\Debug\net48\sharpLab.exe
+C:\Users\alexr\OneDrive\Рабочий стол\sharp_lab-main\sharpLab\sharpLab\obj\Debug\net48\sharpLab.pdb
+C:\Users\alexr\OneDrive\Рабочий стол\sharp_lab-main\sharpLab\sharpLab\bin\Debug\net48\sharpLab.exe.config
+C:\Users\alexr\OneDrive\Рабочий стол\sharp_lab-main\sharpLab\sharpLab\bin\Debug\net48\sharpLab.exe
+C:\Users\alexr\OneDrive\Рабочий стол\sharp_lab-main\sharpLab\sharpLab\bin\Debug\net48\sharpLab.pdb
+C:\Users\alexr\OneDrive\Рабочий стол\sharp_lab-main\sharpLab\sharpLab\bin\Debug\net48\EntityFramework.SqlServer.dll
+C:\Users\alexr\OneDrive\Рабочий стол\sharp_lab-main\sharpLab\sharpLab\bin\Debug\net48\EntityFramework.dll
+C:\Users\alexr\OneDrive\Рабочий стол\sharp_lab-main\sharpLab\sharpLab\bin\Debug\net48\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\alexr\OneDrive\Рабочий стол\sharp_lab-main\sharpLab\sharpLab\bin\Debug\net48\Microsoft.Bcl.HashCode.dll
+C:\Users\alexr\OneDrive\Рабочий стол\sharp_lab-main\sharpLab\sharpLab\bin\Debug\net48\Microsoft.Data.SqlClient.dll
+C:\Users\alexr\OneDrive\Рабочий стол\sharp_lab-main\sharpLab\sharpLab\bin\Debug\net48\Microsoft.EntityFrameworkCore.dll
+C:\Users\alexr\OneDrive\Рабочий стол\sharp_lab-main\sharpLab\sharpLab\bin\Debug\net48\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\alexr\OneDrive\Рабочий стол\sharp_lab-main\sharpLab\sharpLab\bin\Debug\net48\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\alexr\OneDrive\Рабочий стол\sharp_lab-main\sharpLab\sharpLab\bin\Debug\net48\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\alexr\OneDrive\Рабочий стол\sharp_lab-main\sharpLab\sharpLab\bin\Debug\net48\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\alexr\OneDrive\Рабочий стол\sharp_lab-main\sharpLab\sharpLab\bin\Debug\net48\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\alexr\OneDrive\Рабочий стол\sharp_lab-main\sharpLab\sharpLab\bin\Debug\net48\Microsoft.Extensions.Configuration.dll
+C:\Users\alexr\OneDrive\Рабочий стол\sharp_lab-main\sharpLab\sharpLab\bin\Debug\net48\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\alexr\OneDrive\Рабочий стол\sharp_lab-main\sharpLab\sharpLab\bin\Debug\net48\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\alexr\OneDrive\Рабочий стол\sharp_lab-main\sharpLab\sharpLab\bin\Debug\net48\Microsoft.Extensions.Configuration.CommandLine.dll
+C:\Users\alexr\OneDrive\Рабочий стол\sharp_lab-main\sharpLab\sharpLab\bin\Debug\net48\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+C:\Users\alexr\OneDrive\Рабочий стол\sharp_lab-main\sharpLab\sharpLab\bin\Debug\net48\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\alexr\OneDrive\Рабочий стол\sharp_lab-main\sharpLab\sharpLab\bin\Debug\net48\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\alexr\OneDrive\Рабочий стол\sharp_lab-main\sharpLab\sharpLab\bin\Debug\net48\Microsoft.Extensions.Configuration.UserSecrets.dll
+C:\Users\alexr\OneDrive\Рабочий стол\sharp_lab-main\sharpLab\sharpLab\bin\Debug\net48\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\alexr\OneDrive\Рабочий стол\sharp_lab-main\sharpLab\sharpLab\bin\Debug\net48\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\alexr\OneDrive\Рабочий стол\sharp_lab-main\sharpLab\sharpLab\bin\Debug\net48\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\alexr\OneDrive\Рабочий стол\sharp_lab-main\sharpLab\sharpLab\bin\Debug\net48\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\alexr\OneDrive\Рабочий стол\sharp_lab-main\sharpLab\sharpLab\bin\Debug\net48\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\alexr\OneDrive\Рабочий стол\sharp_lab-main\sharpLab\sharpLab\bin\Debug\net48\Microsoft.Extensions.Hosting.dll
+C:\Users\alexr\OneDrive\Рабочий стол\sharp_lab-main\sharpLab\sharpLab\bin\Debug\net48\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\alexr\OneDrive\Рабочий стол\sharp_lab-main\sharpLab\sharpLab\bin\Debug\net48\Microsoft.Extensions.Logging.dll
+C:\Users\alexr\OneDrive\Рабочий стол\sharp_lab-main\sharpLab\sharpLab\bin\Debug\net48\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\alexr\OneDrive\Рабочий стол\sharp_lab-main\sharpLab\sharpLab\bin\Debug\net48\Microsoft.Extensions.Logging.Configuration.dll
+C:\Users\alexr\OneDrive\Рабочий стол\sharp_lab-main\sharpLab\sharpLab\bin\Debug\net48\Microsoft.Extensions.Logging.Console.dll
+C:\Users\alexr\OneDrive\Рабочий стол\sharp_lab-main\sharpLab\sharpLab\bin\Debug\net48\Microsoft.Extensions.Logging.Debug.dll
+C:\Users\alexr\OneDrive\Рабочий стол\sharp_lab-main\sharpLab\sharpLab\bin\Debug\net48\Microsoft.Extensions.Logging.EventLog.dll
+C:\Users\alexr\OneDrive\Рабочий стол\sharp_lab-main\sharpLab\sharpLab\bin\Debug\net48\Microsoft.Extensions.Logging.EventSource.dll
+C:\Users\alexr\OneDrive\Рабочий стол\sharp_lab-main\sharpLab\sharpLab\bin\Debug\net48\Microsoft.Extensions.Options.dll
+C:\Users\alexr\OneDrive\Рабочий стол\sharp_lab-main\sharpLab\sharpLab\bin\Debug\net48\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+C:\Users\alexr\OneDrive\Рабочий стол\sharp_lab-main\sharpLab\sharpLab\bin\Debug\net48\Microsoft.Extensions.Primitives.dll
+C:\Users\alexr\OneDrive\Рабочий стол\sharp_lab-main\sharpLab\sharpLab\bin\Debug\net48\Microsoft.Identity.Client.dll
+C:\Users\alexr\OneDrive\Рабочий стол\sharp_lab-main\sharpLab\sharpLab\bin\Debug\net48\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\alexr\OneDrive\Рабочий стол\sharp_lab-main\sharpLab\sharpLab\bin\Debug\net48\Microsoft.IdentityModel.Logging.dll
+C:\Users\alexr\OneDrive\Рабочий стол\sharp_lab-main\sharpLab\sharpLab\bin\Debug\net48\Microsoft.IdentityModel.Protocols.dll
+C:\Users\alexr\OneDrive\Рабочий стол\sharp_lab-main\sharpLab\sharpLab\bin\Debug\net48\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\alexr\OneDrive\Рабочий стол\sharp_lab-main\sharpLab\sharpLab\bin\Debug\net48\Microsoft.IdentityModel.Tokens.dll
+C:\Users\alexr\OneDrive\Рабочий стол\sharp_lab-main\sharpLab\sharpLab\bin\Debug\net48\Newtonsoft.Json.dll
+C:\Users\alexr\OneDrive\Рабочий стол\sharp_lab-main\sharpLab\sharpLab\bin\Debug\net48\System.Buffers.dll
+C:\Users\alexr\OneDrive\Рабочий стол\sharp_lab-main\sharpLab\sharpLab\bin\Debug\net48\System.Collections.Immutable.dll
+C:\Users\alexr\OneDrive\Рабочий стол\sharp_lab-main\sharpLab\sharpLab\bin\Debug\net48\System.ComponentModel.Annotations.dll
+C:\Users\alexr\OneDrive\Рабочий стол\sharp_lab-main\sharpLab\sharpLab\bin\Debug\net48\System.Configuration.ConfigurationManager.dll
+C:\Users\alexr\OneDrive\Рабочий стол\sharp_lab-main\sharpLab\sharpLab\bin\Debug\net48\System.Diagnostics.DiagnosticSource.dll
+C:\Users\alexr\OneDrive\Рабочий стол\sharp_lab-main\sharpLab\sharpLab\bin\Debug\net48\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\alexr\OneDrive\Рабочий стол\sharp_lab-main\sharpLab\sharpLab\bin\Debug\net48\System.Memory.dll
+C:\Users\alexr\OneDrive\Рабочий стол\sharp_lab-main\sharpLab\sharpLab\bin\Debug\net48\System.Numerics.Vectors.dll
+C:\Users\alexr\OneDrive\Рабочий стол\sharp_lab-main\sharpLab\sharpLab\bin\Debug\net48\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\alexr\OneDrive\Рабочий стол\sharp_lab-main\sharpLab\sharpLab\bin\Debug\net48\System.Security.AccessControl.dll
+C:\Users\alexr\OneDrive\Рабочий стол\sharp_lab-main\sharpLab\sharpLab\bin\Debug\net48\System.Security.Permissions.dll
+C:\Users\alexr\OneDrive\Рабочий стол\sharp_lab-main\sharpLab\sharpLab\bin\Debug\net48\System.Security.Principal.Windows.dll
+C:\Users\alexr\OneDrive\Рабочий стол\sharp_lab-main\sharpLab\sharpLab\bin\Debug\net48\System.Text.Encodings.Web.dll
+C:\Users\alexr\OneDrive\Рабочий стол\sharp_lab-main\sharpLab\sharpLab\bin\Debug\net48\System.Text.Json.dll
+C:\Users\alexr\OneDrive\Рабочий стол\sharp_lab-main\sharpLab\sharpLab\bin\Debug\net48\System.Threading.Tasks.Extensions.dll
+C:\Users\alexr\OneDrive\Рабочий стол\sharp_lab-main\sharpLab\sharpLab\bin\Debug\net48\System.ValueTuple.dll
+C:\Users\alexr\OneDrive\Рабочий стол\sharp_lab-main\sharpLab\sharpLab\bin\Debug\net48\de\Microsoft.Data.SqlClient.resources.dll
+C:\Users\alexr\OneDrive\Рабочий стол\sharp_lab-main\sharpLab\sharpLab\bin\Debug\net48\es\Microsoft.Data.SqlClient.resources.dll
+C:\Users\alexr\OneDrive\Рабочий стол\sharp_lab-main\sharpLab\sharpLab\bin\Debug\net48\fr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\alexr\OneDrive\Рабочий стол\sharp_lab-main\sharpLab\sharpLab\bin\Debug\net48\it\Microsoft.Data.SqlClient.resources.dll
+C:\Users\alexr\OneDrive\Рабочий стол\sharp_lab-main\sharpLab\sharpLab\bin\Debug\net48\ja\Microsoft.Data.SqlClient.resources.dll
+C:\Users\alexr\OneDrive\Рабочий стол\sharp_lab-main\sharpLab\sharpLab\bin\Debug\net48\ko\Microsoft.Data.SqlClient.resources.dll
+C:\Users\alexr\OneDrive\Рабочий стол\sharp_lab-main\sharpLab\sharpLab\bin\Debug\net48\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\Users\alexr\OneDrive\Рабочий стол\sharp_lab-main\sharpLab\sharpLab\bin\Debug\net48\ru\Microsoft.Data.SqlClient.resources.dll
+C:\Users\alexr\OneDrive\Рабочий стол\sharp_lab-main\sharpLab\sharpLab\bin\Debug\net48\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\Users\alexr\OneDrive\Рабочий стол\sharp_lab-main\sharpLab\sharpLab\bin\Debug\net48\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\Users\alexr\OneDrive\Рабочий стол\sharp_lab-main\sharpLab\sharpLab\obj\Debug\net48\sharpLab.csproj.AssemblyReference.cache
+C:\Users\alexr\OneDrive\Рабочий стол\sharp_lab-main\sharpLab\sharpLab\obj\Debug\net48\sharpLab.exe.config
+C:\Users\alexr\OneDrive\Рабочий стол\sharp_lab-main\sharpLab\sharpLab\obj\Debug\net48\sharpLab.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alexr\OneDrive\Рабочий стол\sharp_lab-main\sharpLab\sharpLab\obj\Debug\net48\sharpLab.AssemblyInfoInputs.cache
+C:\Users\alexr\OneDrive\Рабочий стол\sharp_lab-main\sharpLab\sharpLab\obj\Debug\net48\sharpLab.AssemblyInfo.cs
+C:\Users\alexr\OneDrive\Рабочий стол\sharp_lab-main\sharpLab\sharpLab\obj\Debug\net48\sharpLab.csproj.CoreCompileInputs.cache
+C:\Users\alexr\OneDrive\Рабочий стол\sharp_lab-main\sharpLab\sharpLab\obj\Debug\net48\sharpLab.csproj.CopyComplete

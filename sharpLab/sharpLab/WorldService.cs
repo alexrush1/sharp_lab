@@ -22,6 +22,8 @@ namespace nsu.timofeev.sharpLab
         public readonly List<Worm> Worms = new List<Worm>();
         public readonly List<Food> Foods = new List<Food>();
 
+        public int RoundId = 1;
+
         public WorldService(IWormMover wormMover, IFoodGenerator foodGenerator, INameGenerator nameGenerator, IOutputWriter outputWriter)
         {
             _wormMover = wormMover;
@@ -33,15 +35,20 @@ namespace nsu.timofeev.sharpLab
 
         public Worm AddWorm()
         {
-            Worm worm = new Worm(_nameGenerator.Generate(this), _wormMover, this);
-            Worms.Add(worm);
-            return worm;
+            if (TestCell(new Point(0, 0)))
+            {
+                Worm worm = new Worm(_nameGenerator.Generate(this), _wormMover, this);
+                Worms.Add(worm);
+                return worm;
+            }
+            return null;
         }
         
         public void Live()
         {
-            for (int i = 0; i < 100; i++)
+            for (int i = 1; i <= 100; i++)
             {
+                RoundId = i;
                 Round(i);
             }
         }
