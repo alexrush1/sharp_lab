@@ -30,7 +30,7 @@ namespace nsu.timofeev.first_lab.Movers
             return ToFood;
         }
 
-        public Wish GetWish()
+        public Wish GetWish(Worm worm)
         {
             return Wish.MOVE;
         }

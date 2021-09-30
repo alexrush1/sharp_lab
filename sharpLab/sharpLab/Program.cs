@@ -8,6 +8,7 @@ using nsu.timofeev.sharpLab.OutputWriter;
 using sharpLab.Database;
 using System.Configuration;
 using sharpLab.FoodGenerator;
+using sharpLab.Movers;
 
 namespace sharpLab
 {
@@ -28,7 +29,7 @@ namespace sharpLab
                     collection.AddScoped<IFoodGenerator, NonRandomFoodGenerator>();
                     collection.AddScoped<IOutputWriter>(ctx => new OutputFileWriter("log.txt"));
                     collection.AddScoped<INameGenerator, NameGenerator>();
-                    collection.AddScoped<IWormMover, CloseFoodMover>();
+                    collection.AddScoped<IWormMover, HttpPostMover>();
                     collection.AddScoped<IDatabaseFoodReader, DatabaseFoodReader>();
                     collection.AddScoped<IDatabaseFoodLoader, DatabaseFoodLoader>();
                     collection.AddDbContextPool<DatabaseContext>(options => options.UseSqlServer(ConfigurationManager.ConnectionStrings["WormDB"].ConnectionString));

@@ -17,7 +17,7 @@ namespace nsu.timofeev.sharpLab.Movers
             new Point(-1, 1)
         };
 
-        public Wish GetWish()
+        public Wish GetWish(Worm worm)
         {
             return Wish.MOVE;
         }

@@ -4,7 +4,7 @@ namespace nsu.timofeev.sharpLab.Movers
 {
     public interface IWormMover
     {
-        Wish GetWish();
+        Wish GetWish(Worm worm);
         Point Move(Worm worm);
     }
 }

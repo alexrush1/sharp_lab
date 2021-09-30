@@ -13,6 +13,7 @@ namespace nsu.timofeev.sharpLab
         public Point Position;
         public int Steps;
         public int Health;
+        public Direction Direction;
 
         public Wish Wish;
 
